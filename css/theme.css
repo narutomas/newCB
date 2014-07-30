@@ -8,6 +8,14 @@ h1 {
   font-family: 'Lobster', sans-serif;
 }
 
+li{
+
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+
 
 
 
@@ -48,18 +56,26 @@ nav {
 }
 
 nav ul {
-list-style: none;
+ text-decoration: none;
   margin: 0 10px;
   padding:0;
     
 }
 nav li{
   display:inline-block;
+
 }
 
-nav a {
+nav a{
   font-weight:800;
   padding:15px 10px;
+   
+   color: #000;
+
+}
+nav a:hover{
+ color:#FF8000;
+ text-decoration: none;
 }
 
 /****************************************
@@ -68,10 +84,32 @@ PAGE: Show reel
 .video{
   margin-top: 20px;
 }
+/****************************************
+want to see more
+*****************************************/
 
 
+.ft-icon {
+  width: 94%;
+  height: 196px;
+  position: relative;
+  background: #8c73b0 url('../img/main-bg.png') no-repeat 270px -180px;
+  background-size: 140%;
 
-
+}
+.ft-icon::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 164px;
+  height: 102px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background: url('../img/feature-icons.png') no-repeat;
+  background-size: 100%;
 
 
 
