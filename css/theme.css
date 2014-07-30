@@ -17,8 +17,8 @@ Main
 
 
 .main-logo {
-  width: 124px;
-  height: 34px;
+  width: 300px;
+  height: 60px;
   margin-top: 22px;
   text-indent: 100%;
   white-space: nowrap;
@@ -40,15 +40,35 @@ hr{
 /****************************************
 NAVIGATION
 *****************************************/
-.navbar{
-  background-color: #fff;
+
+nav {
+  text-align:center;
+  padding: 10px 0;
+  margin: 20px 0 0;
 }
+
+nav ul {
+list-style: none;
+  margin: 0 10px;
+  padding:0;
+    
+}
+nav li{
+  display:inline-block;
+}
+
+nav a {
+  font-weight:800;
+  padding:15px 10px;
+}
+
 /****************************************
 PAGE: Show reel
 *****************************************/
 .video{
-  margin-top: 50px;
+  margin-top: 20px;
 }
+
 
 
 
