@@ -95,23 +95,10 @@ want to see more
   width: 94%;
   height: 196px;
   position: relative;
-  background: #8c73b0 url('../img/main-bg.png') no-repeat 270px -180px;
+  background: #FF8000 url('../img/main-bg.png') no-repeat 270px -180px;
   background-size: 140%;
+  margin: 10px;
 
-}
-.ft-icon::before {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 164px;
-  height: 102px;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  background: url('../img/feature-icons.png') no-repeat;
-  background-size: 100%;
 
 }
 
