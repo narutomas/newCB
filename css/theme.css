@@ -12,13 +12,15 @@ li{
 
   font-family: 'Lato', sans-serif;
 }
+.mail{
+   text-decoration: none;
 
+}
 
+a{
+  color: #000;
 
-
-
-
-
+}
 /****************************************
 Main
 *****************************************/
@@ -79,7 +81,7 @@ nav a:hover{
 }
 
 /****************************************
-PAGE: Show reel
+Show reel
 *****************************************/
 .video{
   margin-top: 20px;
@@ -111,17 +113,26 @@ want to see more
   background: url('../img/feature-icons.png') no-repeat;
   background-size: 100%;
 
-
+}
 
 /****************************************
 FOOTER
 *****************************************/
 
+footer{
+  font-size: 0.75em;
+  text-align:center;
+  clear:both;
+  padding-top:50px;
+  color: #ccc;
+}
 
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
 
-
-/*  Icons
-================================= */
+}
 
 
 
