@@ -1,0 +1,83 @@
+/****************************************
+Main
+*****************************************/
+
+.main-logo {
+  width: 124px;
+  height: 34px;
+  margin: 22px 0 0 10px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background: url('../img/logo.png') no-repeat;
+  background-size: 100%;
+}
+
+
+/****************************************
+NAVIGATION
+*****************************************/
+
+nav {
+  text-align:center;
+  margin-top: 37px;
+}
+
+nav ul {
+list-style: none;
+display:inline-block;   
+}
+
+nav li{
+  display:inline-block;
+}
+
+nav a {
+  font-weight:800;
+  padding:15px 10px;
+  list-style: none;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #000;
+  font-size: 1.5em;
+}
+
+/****************************************
+PAGE: Show reel
+*****************************************/
+.videoContainer {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        padding-top: 25px;
+        height: 0;
+}
+.videoContainer  iframe {
+        position: absolute;
+        top: 100px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+}
+
+
+
+
+
+
+
+/****************************************
+FOOTER
+*****************************************/
+
+
+
+
+/*  Icons
+================================= */
+
+
+
+
+
+
+
+
