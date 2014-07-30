@@ -31,6 +31,12 @@ Main
   float: left;
 }
 
+hr{
+  margin-bottom: 4px;
+   border-top: 4px dotted #C0C0C0;
+   border-radius:2em;
+}
+
 /****************************************
 NAVIGATION
 *****************************************/
