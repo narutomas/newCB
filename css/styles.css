@@ -1,0 +1,116 @@
+body {
+	font-family: 'Lato', sansserif;
+  font-size: 16px;
+  }
+
+h1{
+  font-family: 'Lobster', sansserif;
+  }
+
+/* --------------------------------------------------------------------
+   Layout
+-------------------------------------------------------------------- */
+
+/* -- Site -- */
+
+.site {
+  font-size: 1.6em; /* 16px/10px */
+  margin: 40px auto;
+  max-width: 1300px;
+  }
+
+/* -- Header -- */
+
+header {
+  margin-bottom: 20px;
+  }
+
+/* Logo's */
+
+.Logo {
+  float: left;
+  width: 50px; 
+  margin: 35px 0 35px 30px;
+  }
+
+nav ul li{
+  display: inline;
+}
+
+  nav ul li a{
+    float: right;
+    display: inline;
+    text-decoration: none;
+    color: #000000;
+
+  }
+  nav ul li a:hover,
+nav ul li.active a {
+  background: none;
+  color: #FF8000;
+}
+
+/* Navigation
+
+nav .hover{
+ float: right;
+  margin-top: 30px;
+
+}
+nav ul li {
+  display: inline;
+  font-size: 0.500em; /* 32px */
+  /*font-weight: bold;
+  margin: 0 40px 0 0;
+}
+nav ul li:last-child {
+  margin-right: 0;
+}
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+nav ul li a:hover,
+nav ul li.active a {
+  background: none;
+  color: #FF8000;
+}
+ */
+
+/*SHOWREEL*/
+.videoContainer {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        padding-top: 25px;
+        height: 0;
+}
+.videoContainer  iframe {
+        position: absolute;
+        top: 100px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+}
+
+
+.Bison{
+  float: right;
+  top:130%; 
+  left: -10%; 
+  }
+
+.mail{
+  text-decoration: none
+
+}
+
+
+.photo{
+  color: #FF8000;
+
+
+}
+aside {
+  position: absolute;
+  margin-top: 100px;
+}
